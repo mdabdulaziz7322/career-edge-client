@@ -2,11 +2,14 @@ import Lottie from 'lottie-react';
 import React, { use } from 'react';
 import registerLottie from '../../assets/Lotties/Register.json';
 import { AuthContext } from '../../context/AuthContext/AuthContext';
+import SocialLogin from '../Shared/SocialLogin';
+import { useNavigate } from 'react-router';
 
 
 const Register = () => {
 
     const {createUser} = use(AuthContext);
+    const navigate = useNavigate();
 
     const handleRegister = event => {
         event.preventDefault();  
@@ -20,6 +23,7 @@ const Register = () => {
             const user = result.user;
             console.log(user);
             form.reset();
+            navigate('/signin');
         })
         .catch(error => console.error(error));
 
@@ -34,7 +38,7 @@ const Register = () => {
       <Lottie style={{width: '300px'}} animationData={registerLottie} loop={true}></Lottie>
       
     </div>
-    <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+    <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-xl">
       <div className="card-body">
         <h1 className="text-5xl font-bold">Register now!</h1>
         <form onSubmit={handleRegister} >
@@ -44,9 +48,10 @@ const Register = () => {
           <label className="label">Password</label>
           <input type="password" name='password' className="input" placeholder="Password" />
           <div><a className="link link-hover">Forgot password?</a></div>
-          <button className="btn btn-neutral mt-4">Register</button>
+          <button className="btn border-2 text-white rounded-lg   bg-[#38a3a5] mt-4">Register</button>
         </fieldset>
         </form>
+        <SocialLogin></SocialLogin>
       </div>
     </div>
   </div>
