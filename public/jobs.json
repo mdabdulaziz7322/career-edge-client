@@ -1,0 +1,1662 @@
+[
+    {
+    "title": "Software Engineer",
+    "location": "Halishohor, Chittagong",
+    "jobType": "Hybrid",
+     "category_id": 1,
+    "category": "Engineering",
+    "applicationDeadline": "2024-12-31",
+    "salaryRange": {
+      "min": 40000,
+      "max": 60000,
+      "currency": "bdt"
+    },
+    "description": "We are seeking a skilled Software Engineer to join our dynamic team. The candidate will work on diverse projects and contribute to innovative solutions.",
+    "company": "Favorite IT",
+    "requirements": ["JavaScript", "React", "Node.js", "MongoDB"],
+    "responsibilities": ["Develop and maintain software", "Collaborate with the team", "Participate in code reviews"],
+    "status": "active",
+    "hr_email": "hr@techsolutions.com",
+    "hr_name": "Farhan Rahman",
+    "company_logo": "https://i.ibb.co/mXD5MNf/facebook.png"
+  },
+  {
+    "title": "Marketing Specialist",
+    "location": "Banani, Dhaka",
+    "jobType": "Remote",
+    "category_id": 1,
+    "category": "Marketing",
+    "applicationDeadline": "2024-12-15",
+    "salaryRange": {
+      "min": 30000,
+      "max": 50000,
+      "currency": "bdt"
+    },
+    "description": "Join our marketing team to strategize and implement innovative campaigns for our products and services.",
+    "company": "GoatMark Inc",
+    "requirements": ["Google Analytics", "SEO", "Content Management Systems", "Excel"],
+    "responsibilities": ["Develop marketing strategies", "Manage ad campaigns", "Analyze campaign performance"],
+    "status": "active",
+    "hr_email": "recruitment@brightmark.com",
+    "hr_name": "Tasnia Ahmed",
+    "company_logo": "https://i.ibb.co/TvvzXfq/google.png"
+  },
+  {
+    "title": "Finance Manager",
+    "location": "Gulshan, Dhaka",
+    "jobType": "Part-Time",
+    "category_id": 1,
+    "category": "Finance",
+    "applicationDeadline": "2024-12-20",
+    "salaryRange": {
+      "min": 50000,
+      "max": 70000,
+      "currency": "bdt"
+    },
+    "description": "We are hiring a Finance Manager to oversee financial operations, budgeting, and reporting.",
+    "company": "Local Inch Ltd",
+    "requirements": ["QuickBooks", "SAP", "Excel", "SQL"],
+    "responsibilities": ["Manage budgets", "Prepare financial reports", "Ensure regulatory compliance"],
+    "status": "active",
+    "hr_email": "finance.hr@securefinance.com",
+    "hr_name": "Md. Alamgir",
+    "company_logo": "https://i.ibb.co/T1XRmbX/linkedin.png"
+  },
+  {
+    "title": "Content Writer",
+    "location": "Uttara, Dhaka",
+    "jobType": "Contractual",
+    "category_id": 1,
+    "category": "Marketing",
+    "applicationDeadline": "2024-12-25",
+    "salaryRange": {
+      "min": 20000,
+      "max": 35000,
+      "currency": "bdt"
+    },
+    "description": "We are looking for a talented Content Writer to create compelling content for our digital platforms.",
+    "company": "Munir soft.",
+    "requirements": ["WordPress", "SEO", "Google Docs", "Grammarly"],
+    "responsibilities": ["Write blog posts", "Create social media content", "Develop email campaigns"],
+    "status": "active",
+    "hr_email": "hr@creativehub.com",
+    "hr_name": "Anika Chowdhury",
+    "company_logo": "https://i.ibb.co/MhsV6wz/microsoft.png"
+  },
+  {
+    "title": "Teaching Assistant",
+    "location": "Chawkbazar, Chittagong",
+    "jobType": "Intern",
+    "category_id": 1,
+    "category": "Teaching",
+    "applicationDeadline": "2024-12-22",
+    "salaryRange": {
+      "min": 10000,
+      "max": 15000,
+      "currency": "bdt"
+    },
+    "description": "Assist in preparing course materials and support teachers in classroom activities.",
+    "company": "Never Flixed.",
+    "requirements": ["Google Slides", "Zoom", "MS Office", "Google Docs"],
+    "responsibilities": ["Assist in lesson planning", "Support classroom management", "Conduct tutoring sessions"],
+    "status": "active",
+    "hr_email": "careers@knowledgebridge.com",
+    "hr_name": "Samiul Islam",
+    "company_logo": "https://i.ibb.co/ThtyXpz/netflix.png"
+  },
+  {
+    "title": "Project Manager",
+    "location": "Mirpur, Dhaka",
+    "jobType": "Hybrid",
+    "category_id": 1,
+    "category": "Management",
+    "applicationDeadline": "2024-12-30",
+    "salaryRange": {
+      "min": 60000,
+      "max": 90000,
+      "currency": "bdt"
+    },
+    "description": "We are seeking a dynamic Project Manager to lead our development team and ensure successful project delivery.",
+    "company": "Nicola Tesla.",
+    "requirements": ["JIRA", "Trello", "Slack", "Agile Methodologies"],
+    "responsibilities": ["Oversee project execution", "Manage team workflows", "Ensure timely project delivery"],
+    "status": "active",
+    "hr_email": "hr@innovatetech.com",
+    "hr_name": "Tahsin Rahman",
+    "company_logo": "https://i.ibb.co/26n3Jp7/tesla.png"
+  },
+  {
+    "title": "Data Scientist",
+    "location": "Mohakhali, Dhaka",
+    "jobType": "Full-Time",
+    "category_id": 1,
+    "category": "Data Science",
+    "applicationDeadline": "2024-12-28",
+    "salaryRange": {
+      "min": 80000,
+      "max": 120000,
+      "currency": "bdt"
+    },
+    "description": "Analyze large datasets to extract meaningful insights and develop predictive models.",
+    "company": "DataWorx Ltd",
+    "requirements": ["Python", "TensorFlow", "SQL", "Tableau"],
+    "responsibilities": ["Develop predictive models", "Clean and analyze data", "Present data-driven insights"],
+    "status": "active",
+    "hr_email": "data.hr@dataworx.com",
+    "hr_name": "Rifat Karim",
+    "company_logo": "https://i.ibb.co/pvG4Ph9/icons8-amazon-logo-96.png"
+  },
+  {
+    "title": "UI/UX Designer",
+    "location": "Dhanmondi, Dhaka",
+    "jobType": "Remote",
+    "category_id": 1,
+    "category": "Design",
+    "applicationDeadline": "2024-12-18",
+    "salaryRange": {
+      "min": 40000,
+      "max": 70000,
+      "currency": "bdt"
+    },
+    "description": "Create engaging user interfaces and improve user experience for our applications.",
+    "company": "Designify",
+    "requirements": ["Figma", "Adobe XD", "HTML", "CSS"],
+    "responsibilities": ["Design prototypes", "Conduct user research", "Collaborate with developers"],
+    "status": "active",
+    "hr_email": "design.jobs@designify.com",
+    "hr_name": "Afsana Noor",
+    "company_logo": "https://i.ibb.co/r5WyzKm/icons8-apple-logo-100.png"
+  },
+  {
+    "title": "DevOps Engineer",
+    "location": "Baridhara, Dhaka",
+    "jobType": "Full-Time",
+    "category_id": 1,
+    "category": "Engineering",
+    "applicationDeadline": "2024-12-22",
+    "salaryRange": {
+      "min": 70000,
+      "max": 100000,
+      "currency": "bdt"
+    },
+    "description": "Build and maintain CI/CD pipelines and ensure reliable infrastructure.",
+    "company": "InfraOps",
+    "requirements": ["Docker", "Kubernetes", "AWS", "Terraform"],
+    "responsibilities": ["Implement CI/CD", "Monitor infrastructure", "Automate deployment processes"],
+    "status": "active",
+    "hr_email": "hr@infraops.com",
+    "hr_name": "Hasibul Hossain",
+    "company_logo": "https://i.ibb.co/Kw72gGC/icons8-youtube-logo-100.png"
+  },
+  {
+    "title": "Mobile App Developer",
+    "location": "Bashundhara, Dhaka",
+    "jobType": "Hybrid",
+    "category_id": 1,
+    "category": "Development",
+    "applicationDeadline": "2024-12-25",
+    "salaryRange": {
+      "min": 50000,
+      "max": 80000,
+      "currency": "bdt"
+    },
+    "description": "Develop and maintain mobile applications for Android and iOS platforms.",
+    "company": "AppCrafter",
+    "requirements": ["Flutter", "Kotlin", "Swift", "Firebase"],
+    "responsibilities": ["Develop mobile apps", "Ensure app performance", "Collaborate with backend teams"],
+    "status": "active",
+    "hr_email": "jobs@appcrafter.com",
+    "hr_name": "Tareq Anwar",
+    "company_logo": "https://i.ibb.co/BLVwZzZ/icons8-whatsapp-logo-94.png"
+  },
+    {
+        "title": "Software Engineer",
+        "location": "Halishohor, Chittagong",
+        "jobType": "Hybrid",
+        "category_id": 2,
+        "applicationDeadline": "2024-12-31",
+        "salaryRange": {
+            "min": 40000,
+            "max": 60000,
+            "currency": "bdt"
+        },
+        "description": "We are seeking a skilled Software Engineer to join our dynamic team. The candidate will develop scalable solutions and ensure high-quality code.",
+        "company": "Favorite IT",
+        "requirements": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+        ],
+        "responsibilities": [
+            "Develop and maintain web applications",
+            "Collaborate with the backend team",
+            "Review and optimize code"
+        ],
+        "status": "active",
+        "hr_email": "hr@favoriteit.com",
+        "hr_name": "Farhan Rahman",
+        "company_logo": "https://i.ibb.co/0RnSHb5n/1.png"
+    },
+    {
+        "title": "Frontend Developer",
+        "location": "Banani, Dhaka",
+        "jobType": "Remote",
+        "category_id": 2,
+        "applicationDeadline": "2024-12-15",
+        "salaryRange": {
+            "min": 35000,
+            "max": 55000,
+            "currency": "bdt"
+        },
+        "description": "Looking for a Frontend Developer experienced in React and modern UI frameworks to build responsive web applications.",
+        "company": "NextTech BD",
+        "requirements": [
+            "HTML",
+            "CSS",
+            "React",
+            "Redux"
+        ],
+        "responsibilities": [
+            "Develop responsive UIs",
+            "Ensure cross-browser compatibility",
+            "Collaborate with UX designers"
+        ],
+        "status": "active",
+        "hr_email": "jobs@nexttechbd.com",
+        "hr_name": "Rafid Hasan",
+        "company_logo": "https://i.ibb.co/HL5fRsnM/2.png"
+    },
+    {
+        "title": "Backend Engineer",
+        "location": "Agrabad, Chittagong",
+        "jobType": "Onsite",
+        "category_id": 2,
+        "applicationDeadline": "2024-11-30",
+        "salaryRange": {
+            "min": 45000,
+            "max": 65000,
+            "currency": "bdt"
+        },
+        "description": "We are hiring a Backend Engineer to design and maintain APIs and databases using Node.js and Express.",
+        "company": "TechnoHive",
+        "requirements": [
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "REST APIs"
+        ],
+        "responsibilities": [
+            "Develop APIs",
+            "Optimize database queries",
+            "Integrate third-party services"
+        ],
+        "status": "active",
+        "hr_email": "hr@technohive.com",
+        "hr_name": "Tasnima Noor",
+        "company_logo": "https://i.ibb.co/677HcHdx/3.png"
+    },
+    {
+        "title": "Full Stack Developer",
+        "location": "Uttara, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 2,
+        "applicationDeadline": "2024-12-25",
+        "salaryRange": {
+            "min": 50000,
+            "max": 70000,
+            "currency": "bdt"
+        },
+        "description": "Join our growing engineering team as a Full Stack Developer with expertise in MERN stack.",
+        "company": "DigitalSoft Ltd.",
+        "requirements": [
+            "React",
+            "Node.js",
+            "MongoDB",
+            "Express"
+        ],
+        "responsibilities": [
+            "Develop full-stack apps",
+            "Deploy applications",
+            "Maintain CI/CD pipelines"
+        ],
+        "status": "active",
+        "hr_email": "career@digitalsoft.com",
+        "hr_name": "Sumaiya Hossain",
+        "company_logo": "https://i.ibb.co/5dd3NY7/4.png"
+    },
+    {
+        "title": "DevOps Engineer",
+        "location": "Tejgaon, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 2,
+        "applicationDeadline": "2024-12-20",
+        "salaryRange": {
+            "min": 60000,
+            "max": 80000,
+            "currency": "bdt"
+        },
+        "description": "Seeking a DevOps Engineer to automate deployments, manage cloud infrastructure, and support CI/CD processes.",
+        "company": "InnovaTech",
+        "requirements": [
+            "AWS",
+            "Docker",
+            "Kubernetes",
+            "CI/CD"
+        ],
+        "responsibilities": [
+            "Maintain cloud servers",
+            "Automate deployments",
+            "Monitor system performance"
+        ],
+        "status": "active",
+        "hr_email": "hr@innovatech.com",
+        "hr_name": "Mahfuz Reza",
+        "company_logo": "https://i.ibb.co/845JLhDn/5.png"
+    },
+    {
+        "title": "Mobile App Developer",
+        "location": "Mirpur, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 2,
+        "applicationDeadline": "2024-12-28",
+        "salaryRange": {
+            "min": 45000,
+            "max": 70000,
+            "currency": "bdt"
+        },
+        "description": "We are looking for an experienced Mobile App Developer to build and maintain Android and iOS applications using React Native.",
+        "company": "CodeWave",
+        "requirements": [
+            "React Native",
+            "JavaScript",
+            "API Integration",
+            "Firebase"
+        ],
+        "responsibilities": [
+            "Develop mobile applications",
+            "Collaborate with designers",
+            "Deploy to App Store and Play Store"
+        ],
+        "status": "active",
+        "hr_email": "career@codewave.com",
+        "hr_name": "Rima Akter",
+        "company_logo": "https://i.ibb.co/vC2Pczk7/7.png"
+    },
+    {
+        "title": "QA Engineer",
+        "location": "Dhanmondi, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 2,
+        "applicationDeadline": "2024-12-15",
+        "salaryRange": {
+            "min": 30000,
+            "max": 45000,
+            "currency": "bdt"
+        },
+        "description": "QA Engineer responsible for testing web and mobile applications to ensure quality and performance.",
+        "company": "TechScope",
+        "requirements": [
+            "Manual Testing",
+            "Automation",
+            "Selenium",
+            "Jest"
+        ],
+        "responsibilities": [
+            "Create test cases",
+            "Perform manual and automated tests",
+            "Report and track bugs"
+        ],
+        "status": "active",
+        "hr_email": "jobs@techscope.com",
+        "hr_name": "Sabbir Ahmed",
+        "company_logo": "https://i.ibb.co/Rp6gK8S3/6.png"
+    },
+    {
+        "title": "System Administrator",
+        "location": "Khulshi, Chittagong",
+        "jobType": "Onsite",
+        "category_id": 2,
+        "applicationDeadline": "2024-12-22",
+        "salaryRange": {
+            "min": 40000,
+            "max": 60000,
+            "currency": "bdt"
+        },
+        "description": "System Administrator to maintain company servers, manage backups, and ensure system uptime.",
+        "company": "CyberNet Solutions",
+        "requirements": [
+            "Linux",
+            "Networking",
+            "Shell Scripting",
+            "Security"
+        ],
+        "responsibilities": [
+            "Monitor system performance",
+            "Maintain networks",
+            "Ensure data security"
+        ],
+        "status": "active",
+        "hr_email": "admin@cybernet.com",
+        "hr_name": "Kawsar Mahmud",
+        "company_logo": "https://i.ibb.co/5g1TpQLd/8.png"
+    },
+    {
+        "title": "UI/UX Designer",
+        "location": "Gulshan, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 2,
+        "applicationDeadline": "2024-12-29",
+        "salaryRange": {
+            "min": 40000,
+            "max": 55000,
+            "currency": "bdt"
+        },
+        "description": "Creative UI/UX Designer needed to craft intuitive user experiences for mobile and web applications.",
+        "company": "PixelCraft",
+        "requirements": [
+            "Figma",
+            "Adobe XD",
+            "UI Design",
+            "Wireframing"
+        ],
+        "responsibilities": [
+            "Design UI layouts",
+            "Collaborate with developers",
+            "Conduct user research"
+        ],
+        "status": "active",
+        "hr_email": "design@pixelcraft.com",
+        "hr_name": "Arifa Jahan",
+        "company_logo": "https://i.ibb.co/7JFWj1Yb/9.png"
+    },
+    {
+        "title": "Software Support Engineer",
+        "location": "Halishohor, Chittagong",
+        "jobType": "Onsite",
+        "category_id": 2,
+        "applicationDeadline": "2024-12-26",
+        "salaryRange": {
+            "min": 30000,
+            "max": 45000,
+            "currency": "bdt"
+        },
+        "description": "Support Engineer responsible for diagnosing software issues and providing solutions to clients.",
+        "company": "SupportPro BD",
+        "requirements": [
+            "Technical Support",
+            "SQL",
+            "Troubleshooting",
+            "Documentation"
+        ],
+        "responsibilities": [
+            "Handle client queries",
+            "Identify bugs",
+            "Collaborate with developers for fixes"
+        ],
+        "status": "active",
+        "hr_email": "hr@supportpro.com",
+        "hr_name": "Tanvir Alam",
+        "company_logo": "https://i.ibb.co/3bfDdtX/10.png"
+    },
+    {
+        "title": "AI Engineer",
+        "location": "Mohakhali, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 3,
+        "applicationDeadline": "2024-12-30",
+        "salaryRange": {
+            "min": 80000,
+            "max": 120000,
+            "currency": "bdt"
+        },
+        "description": "AI Engineer to develop and deploy intelligent models for NLP and computer vision tasks.",
+        "company": "SmartMind AI",
+        "requirements": [
+            "Python",
+            "TensorFlow",
+            "Machine Learning",
+            "Data Science"
+        ],
+        "responsibilities": [
+            "Train ML models",
+            "Optimize AI pipelines",
+            "Deploy models to production"
+        ],
+        "status": "active",
+        "hr_email": "career@smartmind.ai",
+        "hr_name": "Nafisa Rahman",
+        "company_logo": "https://i.ibb.co/d45BBHj1/11.png"
+    },
+    {
+        "title": "Database Administrator",
+        "location": "Banani, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 3,
+        "applicationDeadline": "2024-12-27",
+        "salaryRange": {
+            "min": 50000,
+            "max": 75000,
+            "currency": "bdt"
+        },
+        "description": "Database Administrator to manage and optimize large-scale databases ensuring performance and reliability.",
+        "company": "DataCore",
+        "requirements": [
+            "SQL",
+            "PostgreSQL",
+            "Performance Tuning",
+            "Backup Management"
+        ],
+        "responsibilities": [
+            "Maintain databases",
+            "Optimize queries",
+            "Ensure data security"
+        ],
+        "status": "active",
+        "hr_email": "db@data-core.com",
+        "hr_name": "Sadia Karim",
+        "company_logo": "https://i.ibb.co/C3QYf3br/12.png"
+    },
+    {
+        "title": "Software Project Manager",
+        "location": "Uttara, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 3,
+        "applicationDeadline": "2024-12-24",
+        "salaryRange": {
+            "min": 70000,
+            "max": 100000,
+            "currency": "bdt"
+        },
+        "description": "Looking for a Software Project Manager with experience managing Agile teams and complex software projects.",
+        "company": "CloudBase Systems",
+        "requirements": [
+            "Agile",
+            "Scrum",
+            "Project Management",
+            "Software Lifecycle"
+        ],
+        "responsibilities": [
+            "Plan sprints",
+            "Coordinate teams",
+            "Deliver projects on time"
+        ],
+        "status": "active",
+        "hr_email": "jobs@cloudbase.com",
+        "hr_name": "Farzana Akhter",
+        "company_logo": "https://i.ibb.co/zWf6N77J/13.png"
+    },
+    {
+        "title": "Embedded Systems Engineer",
+        "location": "Motijheel, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 3,
+        "applicationDeadline": "2024-12-30",
+        "salaryRange": {
+            "min": 60000,
+            "max": 85000,
+            "currency": "bdt"
+        },
+        "description": "Engineer responsible for designing and programming embedded hardware systems using C/C++.",
+        "company": "MicroCore",
+        "requirements": [
+            "C",
+            "C++",
+            "Microcontrollers",
+            "IoT"
+        ],
+        "responsibilities": [
+            "Design embedded software",
+            "Test hardware",
+            "Integrate sensors and modules"
+        ],
+        "status": "active",
+        "hr_email": "hr@microcore.com",
+        "hr_name": "Asif Iqbal",
+        "company_logo": "https://i.ibb.co/5WQv9PRB/15.png"
+    },
+    {
+        "title": "Game Developer",
+        "location": "Dhanmondi, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 3,
+        "applicationDeadline": "2024-12-28",
+        "salaryRange": {
+            "min": 50000,
+            "max": 80000,
+            "currency": "bdt"
+        },
+        "description": "Join our creative team as a Game Developer to design interactive and engaging games using Unity or Unreal Engine.",
+        "company": "GameHub Studios",
+        "requirements": [
+            "Unity",
+            "C#",
+            "3D Graphics",
+            "Physics Engine"
+        ],
+        "responsibilities": [
+            "Develop gameplay mechanics",
+            "Collaborate with artists",
+            "Optimize performance"
+        ],
+        "status": "active",
+        "hr_email": "careers@gamehub.com",
+        "hr_name": "Imran Chowdhury",
+        "company_logo": "https://i.ibb.co/dw96Gvhy/14.png"
+    },
+    {
+        "title": "Digital Marketing Executive",
+        "location": "Banani, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 3,
+        "applicationDeadline": "2024-12-31",
+        "salaryRange": {
+            "min": 30000,
+            "max": 50000,
+            "currency": "bdt"
+        },
+        "description": "We are seeking a Digital Marketing Executive to plan and execute online marketing campaigns across multiple channels.",
+        "company": "Marketify BD",
+        "requirements": [
+            "SEO",
+            "Google Ads",
+            "Social Media Marketing",
+            "Analytics"
+        ],
+        "responsibilities": [
+            "Run online campaigns",
+            "Monitor performance metrics",
+            "Optimize ad strategies"
+        ],
+        "status": "active",
+        "hr_email": "hr@marketify.com",
+        "hr_name": "Rashed Karim",
+        "company_logo": "https://i.ibb.co/8DTY1HFH/16.png"
+    },
+    {
+        "title": "Content Strategist",
+        "location": "Dhanmondi, Dhaka",
+        "jobType": "Remote",
+        "category_id": 3,
+        "applicationDeadline": "2024-12-20",
+        "salaryRange": {
+            "min": 35000,
+            "max": 55000,
+            "currency": "bdt"
+        },
+        "description": "Looking for a creative Content Strategist to lead content planning and storytelling across digital platforms.",
+        "company": "Creative Pulse",
+        "requirements": [
+            "Content Writing",
+            "SEO",
+            "Strategy",
+            "Analytics"
+        ],
+        "responsibilities": [
+            "Plan content calendars",
+            "Analyze audience engagement",
+            "Coordinate with designers and writers"
+        ],
+        "status": "active",
+        "hr_email": "jobs@creativepulse.com",
+        "hr_name": "Shanjida Akter",
+        "company_logo": "https://i.ibb.co/FqxcrxdW/17.png"
+    },
+    {
+        "title": "Social Media Manager",
+        "location": "Gulshan, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 3,
+        "applicationDeadline": "2024-12-28",
+        "salaryRange": {
+            "min": 40000,
+            "max": 60000,
+            "currency": "bdt"
+        },
+        "description": "Manage and grow company social media presence through creative campaigns and audience engagement.",
+        "company": "Brandverse",
+        "requirements": [
+            "Social Media",
+            "Content Creation",
+            "Community Management",
+            "Analytics"
+        ],
+        "responsibilities": [
+            "Manage social channels",
+            "Create engaging posts",
+            "Analyze engagement data"
+        ],
+        "status": "active",
+        "hr_email": "social@brandverse.com",
+        "hr_name": "Mahir Hasan",
+        "company_logo": "https://i.ibb.co/cKKZj0YC/20.png"
+    },
+    {
+        "title": "SEO Specialist",
+        "location": "Halishohor, Chittagong",
+        "jobType": "Onsite",
+        "category_id": 3,
+        "applicationDeadline": "2024-12-25",
+        "salaryRange": {
+            "min": 35000,
+            "max": 55000,
+            "currency": "bdt"
+        },
+        "description": "SEO Specialist to manage on-page and off-page optimization for multiple client websites.",
+        "company": "OptiSearch Ltd.",
+        "requirements": [
+            "SEO",
+            "Google Analytics",
+            "Link Building",
+            "Keyword Research"
+        ],
+        "responsibilities": [
+            "Audit websites",
+            "Improve rankings",
+            "Track SEO performance"
+        ],
+        "status": "active",
+        "hr_email": "careers@optisearch.com",
+        "hr_name": "Taslima Hossain",
+        "company_logo": "https://i.ibb.co/4RJ0L031/18.png"
+    },
+    {
+        "title": "Marketing Analyst",
+        "location": "Tejgaon, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 3,
+        "applicationDeadline": "2024-12-29",
+        "salaryRange": {
+            "min": 45000,
+            "max": 65000,
+            "currency": "bdt"
+        },
+        "description": "We are hiring a Marketing Analyst to collect and interpret data to help improve marketing strategies.",
+        "company": "Insight BD",
+        "requirements": [
+            "Data Analysis",
+            "Excel",
+            "Power BI",
+            "Marketing Research"
+        ],
+        "responsibilities": [
+            "Analyze marketing data",
+            "Generate reports",
+            "Suggest strategy improvements"
+        ],
+        "status": "active",
+        "hr_email": "analytics@insightbd.com",
+        "hr_name": "Farzana Mahmud",
+        "company_logo": "https://i.ibb.co/Hv14GKC/19.png"
+    },
+    {
+        "title": "Project Manager",
+        "location": "Gulshan, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 4,
+        "applicationDeadline": "2024-12-31",
+        "salaryRange": {
+            "min": 80000,
+            "max": 120000,
+            "currency": "bdt"
+        },
+        "description": "Project Manager responsible for planning, executing, and closing projects, ensuring timely delivery.",
+        "company": "VisionTech Ltd.",
+        "requirements": [
+            "Project Management",
+            "Agile",
+            "Scrum",
+            "Leadership"
+        ],
+        "responsibilities": [
+            "Manage projects",
+            "Coordinate teams",
+            "Ensure project milestones are met"
+        ],
+        "status": "active",
+        "hr_email": "hr@visiontech.com",
+        "hr_name": "Farzana Akhter",
+        "company_logo": "https://i.ibb.co/kgxyF8s6/21.png"
+    },
+    {
+        "title": "Operations Manager",
+        "location": "Banani, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 4,
+        "applicationDeadline": "2024-12-28",
+        "salaryRange": {
+            "min": 75000,
+            "max": 110000,
+            "currency": "bdt"
+        },
+        "description": "Operations Manager to oversee daily operations, optimize workflows, and improve operational efficiency.",
+        "company": "Optima Solutions",
+        "requirements": [
+            "Operations Management",
+            "Leadership",
+            "Process Optimization",
+            "Communication"
+        ],
+        "responsibilities": [
+            "Manage operations team",
+            "Streamline processes",
+            "Monitor KPIs"
+        ],
+        "status": "active",
+        "hr_email": "jobs@optimasolutions.com",
+        "hr_name": "Raihan Karim",
+        "company_logo": "https://i.ibb.co/gb7Lt80P/22.png"
+    },
+    {
+        "title": "HR Manager",
+        "location": "Dhanmondi, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 4,
+        "applicationDeadline": "2024-12-26",
+        "salaryRange": {
+            "min": 70000,
+            "max": 100000,
+            "currency": "bdt"
+        },
+        "description": "HR Manager to lead recruitment, employee relations, and HR strategy across the organization.",
+        "company": "PeopleFirst BD",
+        "requirements": [
+            "HR Management",
+            "Recruitment",
+            "Employee Relations",
+            "Leadership"
+        ],
+        "responsibilities": [
+            "Manage HR team",
+            "Oversee recruitment",
+            "Implement HR policies"
+        ],
+        "status": "active",
+        "hr_email": "hr@peoplefirst.com",
+        "hr_name": "Sadia Rahman",
+        "company_logo": "https://i.ibb.co/W4yVK1yJ/23.png"
+    },
+    {
+        "title": "Business Development Manager",
+        "location": "Mohakhali, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 4,
+        "applicationDeadline": "2024-12-29",
+        "salaryRange": {
+            "min": 70000,
+            "max": 110000,
+            "currency": "bdt"
+        },
+        "description": "Business Development Manager to identify opportunities, generate leads, and expand market presence.",
+        "company": "GrowthEdge",
+        "requirements": [
+            "Business Development",
+            "Sales",
+            "Negotiation",
+            "Strategy"
+        ],
+        "responsibilities": [
+            "Identify clients",
+            "Develop sales strategies",
+            "Close business deals"
+        ],
+        "status": "active",
+        "hr_email": "career@growthedge.com",
+        "hr_name": "Tasmia Noor",
+        "company_logo": "https://i.ibb.co/ZRsdTPgG/24.png"
+    },
+    {
+        "title": "Product Manager",
+        "location": "Tejgaon, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 4,
+        "applicationDeadline": "2024-12-30",
+        "salaryRange": {
+            "min": 80000,
+            "max": 120000,
+            "currency": "bdt"
+        },
+        "description": "Product Manager to oversee product development, strategy, and lifecycle from concept to launch.",
+        "company": "TechNova BD",
+        "requirements": [
+            "Product Management",
+            "Strategy",
+            "Communication",
+            "Leadership"
+        ],
+        "responsibilities": [
+            "Define product roadmap",
+            "Coordinate development teams",
+            "Launch products successfully"
+        ],
+        "status": "active",
+        "hr_email": "hr@technova.com",
+        "hr_name": "Imran Chowdhury",
+        "company_logo": "https://i.ibb.co/HT1zxzLt/25.png"
+    },
+    {
+        "title": "Operations Coordinator",
+        "location": "Mirpur, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 4,
+        "applicationDeadline": "2024-12-27",
+        "salaryRange": {
+            "min": 40000,
+            "max": 60000,
+            "currency": "bdt"
+        },
+        "description": "Coordinate day-to-day operations and assist the Operations Manager in ensuring smooth workflows.",
+        "company": "LogiCore BD",
+        "requirements": [
+            "Operations",
+            "Coordination",
+            "Communication",
+            "Excel"
+        ],
+        "responsibilities": [
+            "Assist operations team",
+            "Coordinate schedules",
+            "Monitor process efficiency"
+        ],
+        "status": "active",
+        "hr_email": "jobs@logicore.com",
+        "hr_name": "Tanvir Alam",
+        "company_logo": "https://i.ibb.co/VWTH58QZ/26.png"
+    },
+    {
+        "title": "Team Lead Management",
+        "location": "Uttara, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 4,
+        "applicationDeadline": "2024-12-31",
+        "salaryRange": {
+            "min": 65000,
+            "max": 90000,
+            "currency": "bdt"
+        },
+        "description": "Lead a team of professionals, assign tasks, and ensure goals are met efficiently.",
+        "company": "TeamWorks Ltd.",
+        "requirements": [
+            "Leadership",
+            "Team Management",
+            "Communication",
+            "Problem Solving"
+        ],
+        "responsibilities": [
+            "Lead team",
+            "Monitor performance",
+            "Resolve team conflicts"
+        ],
+        "status": "active",
+        "hr_email": "hr@teamworks.com",
+        "hr_name": "Shaila Binte Rahman",
+        "company_logo": "https://i.ibb.co/PvLK5h0z/27.png"
+    },
+    {
+        "title": "Operations Analyst",
+        "location": "Motijheel, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 4,
+        "applicationDeadline": "2024-12-28",
+        "salaryRange": {
+            "min": 50000,
+            "max": 70000,
+            "currency": "bdt"
+        },
+        "description": "Analyze operational data and processes to identify areas for efficiency improvement.",
+        "company": "OptiFlow",
+        "requirements": [
+            "Data Analysis",
+            "Operations",
+            "Reporting",
+            "Excel"
+        ],
+        "responsibilities": [
+            "Collect operational data",
+            "Analyze KPIs",
+            "Provide recommendations"
+        ],
+        "status": "active",
+        "hr_email": "hr@optiflow.com",
+        "hr_name": "Mahir Hasan",
+        "company_logo": "https://i.ibb.co/V0PWKmkh/28.png"
+    },
+    {
+        "title": "Strategy Manager",
+        "location": "Banani, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 4,
+        "applicationDeadline": "2024-12-30",
+        "salaryRange": {
+            "min": 90000,
+            "max": 130000,
+            "currency": "bdt"
+        },
+        "description": "Strategy Manager responsible for developing corporate strategies to drive business growth and efficiency.",
+        "company": "BizStrat BD",
+        "requirements": [
+            "Strategy",
+            "Business Analysis",
+            "Leadership",
+            "Problem Solving"
+        ],
+        "responsibilities": [
+            "Develop corporate strategies",
+            "Analyze business performance",
+            "Lead strategic initiatives"
+        ],
+        "status": "active",
+        "hr_email": "career@bizstrat.com",
+        "hr_name": "Ashraful Alam",
+        "company_logo": "https://i.ibb.co/FkcSFJzb/29.png"
+    },
+    {
+        "title": "Administrative Manager",
+        "location": "Dhanmondi, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 4,
+        "applicationDeadline": "2024-12-26",
+        "salaryRange": {
+            "min": 60000,
+            "max": 85000,
+            "currency": "bdt"
+        },
+        "description": "Oversee administrative operations, manage support staff, and ensure smooth office functions.",
+        "company": "AdminCorp BD",
+        "requirements": [
+            "Administration",
+            "Leadership",
+            "Organizational Skills",
+            "Communication"
+        ],
+        "responsibilities": [
+            "Manage administrative team",
+            "Oversee office operations",
+            "Ensure compliance with policies"
+        ],
+        "status": "active",
+        "hr_email": "hr@admincorp.com",
+        "hr_name": "Rafi Uddin",
+        "company_logo": "https://i.ibb.co/qMvrk40F/30.png"
+    },
+    {
+        "title": "Advertising Manager",
+        "location": "Gulshan, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 5,
+        "applicationDeadline": "2024-12-30",
+        "salaryRange": {
+            "min": 70000,
+            "max": 110000,
+            "currency": "bdt"
+        },
+        "description": "Lead and manage advertising campaigns across digital and traditional platforms to enhance brand visibility.",
+        "company": "AdSphere Ltd.",
+        "requirements": [
+            "Advertising",
+            "Campaign Management",
+            "Media Planning",
+            "Leadership"
+        ],
+        "responsibilities": [
+            "Plan advertising strategies",
+            "Manage campaign budgets",
+            "Coordinate with creative teams"
+        ],
+        "status": "active",
+        "hr_email": "hr@adsphere.com",
+        "hr_name": "Sajid Rahman",
+        "company_logo": "https://i.ibb.co/MyRSHNdL/31.png"
+    },
+    {
+        "title": "Creative Director",
+        "location": "Banani, Dhaka",
+        "jobType": "Onsite",
+        "category_id":5,
+        "applicationDeadline": "2024-12-31",
+        "salaryRange": {
+            "min": 90000,
+            "max": 130000,
+            "currency": "bdt"
+        },
+        "description": "Creative Director to lead concept development, oversee design teams, and ensure high-impact campaigns.",
+        "company": "CreativePulse BD",
+        "requirements": [
+            "Creative Direction",
+            "Brand Strategy",
+            "Design Thinking",
+            "Team Management"
+        ],
+        "responsibilities": [
+            "Oversee creative process",
+            "Develop branding ideas",
+            "Review campaign visuals"
+        ],
+        "status": "active",
+        "hr_email": "jobs@creativepulse.com",
+        "hr_name": "Samira Noor",
+        "company_logo": "https://i.ibb.co/XxvJ2bXS/32.png"
+    },
+    {
+        "title": "Digital Advertising Specialist",
+        "location": "Dhanmondi, Dhaka",
+        "jobType": "Remote",
+        "category_id": 5,
+        "applicationDeadline": "2024-12-25",
+        "salaryRange": {
+            "min": 50000,
+            "max": 80000,
+            "currency": "bdt"
+        },
+        "description": "Responsible for running paid digital campaigns on Google Ads, Facebook, and other social platforms.",
+        "company": "ClickMaster BD",
+        "requirements": [
+            "Google Ads",
+            "Meta Ads",
+            "SEO",
+            "Analytics"
+        ],
+        "responsibilities": [
+            "Set up ad campaigns",
+            "Monitor performance",
+            "Optimize ad spend"
+        ],
+        "status": "active",
+        "hr_email": "hr@clickmaster.com",
+        "hr_name": "Tanvir Alam",
+        "company_logo": "https://i.ibb.co/BVfyy1Nw/33.png"
+    },
+    {
+        "title": "Media Buyer",
+        "location": "Tejgaon, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 5,
+        "applicationDeadline": "2024-12-28",
+        "salaryRange": {
+            "min": 60000,
+            "max": 90000,
+            "currency": "bdt"
+        },
+        "description": "Media Buyer to plan, negotiate, and purchase advertising space across media channels.",
+        "company": "AdReach BD",
+        "requirements": [
+            "Media Planning",
+            "Negotiation",
+            "Budget Management",
+            "Communication"
+        ],
+        "responsibilities": [
+            "Negotiate ad space",
+            "Manage media budgets",
+            "Track campaign performance"
+        ],
+        "status": "active",
+        "hr_email": "career@adreach.com",
+        "hr_name": "Fahim Hassan",
+        "company_logo": "https://i.ibb.co/xqcy4qJ9/34.png"
+    },
+    {
+        "title": "Copywriter",
+        "location": "Mohakhali, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 5,
+        "applicationDeadline": "2024-12-26",
+        "salaryRange": {
+            "min": 40000,
+            "max": 60000,
+            "currency": "bdt"
+        },
+        "description": "Craft engaging and persuasive ad copy for digital, print, and broadcast media.",
+        "company": "WordCraft Agency",
+        "requirements": [
+            "Copywriting",
+            "Creativity",
+            "Content Strategy",
+            "SEO"
+        ],
+        "responsibilities": [
+            "Write ad copy",
+            "Collaborate with design team",
+            "Edit and proofread content"
+        ],
+        "status": "active",
+        "hr_email": "jobs@wordcraft.com",
+        "hr_name": "Mubashira Khan",
+        "company_logo": "https://i.ibb.co/DfZZWDg3/35.png"
+    },
+    {
+        "title": "Brand Executive",
+        "location": "Uttara, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 5,
+        "applicationDeadline": "2024-12-27",
+        "salaryRange": {
+            "min": 45000,
+            "max": 65000,
+            "currency": "bdt"
+        },
+        "description": "Assist the brand manager in executing campaigns and ensuring consistent brand communication.",
+        "company": "Brandify BD",
+        "requirements": [
+            "Brand Management",
+            "Advertising",
+            "Market Research",
+            "Communication"
+        ],
+        "responsibilities": [
+            "Assist in brand campaigns",
+            "Coordinate with creative teams",
+            "Track brand performance"
+        ],
+        "status": "active",
+        "hr_email": "hr@brandify.com",
+        "hr_name": "Tahia Rahman",
+        "company_logo": "https://i.ibb.co/VWDW0R9x/36.png"
+    },
+    {
+        "title": "Public Relations Officer",
+        "location": "Motijheel, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 5,
+        "applicationDeadline": "2024-12-20",
+        "salaryRange": {
+            "min": 55000,
+            "max": 80000,
+            "currency": "bdt"
+        },
+        "description": "Manage public relations campaigns and maintain positive media coverage for the organization.",
+        "company": "PRLink BD",
+        "requirements": [
+            "Public Relations",
+            "Media Relations",
+            "Writing",
+            "Crisis Management"
+        ],
+        "responsibilities": [
+            "Write press releases",
+            "Build media relationships",
+            "Monitor brand reputation"
+        ],
+        "status": "active",
+        "hr_email": "career@prlink.com",
+        "hr_name": "Rubel Mahmud",
+        "company_logo": "https://i.ibb.co/qMVTNyqV/37.png"
+    },
+    {
+        "title": "Social Media Advertiser",
+        "location": "Banani, Dhaka",
+        "jobType": "Remote",
+        "category_id": 5,
+        "applicationDeadline": "2024-12-23",
+        "salaryRange": {
+            "min": 40000,
+            "max": 65000,
+            "currency": "bdt"
+        },
+        "description": "Plan, execute, and analyze social media advertising campaigns across Facebook, Instagram, and LinkedIn.",
+        "company": "SocialX BD",
+        "requirements": [
+            "Social Media Marketing",
+            "Analytics",
+            "Content Strategy",
+            "Paid Ads"
+        ],
+        "responsibilities": [
+            "Run social ads",
+            "Monitor campaign metrics",
+            "Create reports"
+        ],
+        "status": "active",
+        "hr_email": "jobs@socialx.com",
+        "hr_name": "Rafia Chowdhury",
+        "company_logo": "https://i.ibb.co/KzyCr370/38.png"
+    },
+    {
+        "title": "Campaign Strategist",
+        "location": "Gulshan, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 5,
+        "applicationDeadline": "2024-12-29",
+        "salaryRange": {
+            "min": 70000,
+            "max": 100000,
+            "currency": "bdt"
+        },
+        "description": "Design data-driven advertising strategies to achieve business objectives and target market reach.",
+        "company": "AdHive Agency",
+        "requirements": [
+            "Campaign Strategy",
+            "Data Analysis",
+            "Digital Marketing",
+            "Leadership"
+        ],
+        "responsibilities": [
+            "Plan campaigns",
+            "Analyze metrics",
+            "Work with creative teams"
+        ],
+        "status": "active",
+        "hr_email": "hr@adhive.com",
+        "hr_name": "Farhan Hossain",
+        "company_logo": "https://i.ibb.co/B2yYYtZX/39.png"
+    },
+    {
+        "title": "Visual Designer (Advertising)",
+        "location": "Dhanmondi, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 5,
+        "applicationDeadline": "2024-12-24",
+        "salaryRange": {
+            "min": 45000,
+            "max": 70000,
+            "currency": "bdt"
+        },
+        "description": "Create visually appealing ad designs and promotional materials for print and digital media.",
+        "company": "PixelAd Studio",
+        "requirements": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "Creativity",
+            "Branding"
+        ],
+        "responsibilities": [
+            "Design ad creatives",
+            "Collaborate with marketing team",
+            "Ensure visual consistency"
+        ],
+        "status": "active",
+        "hr_email": "hr@pixelad.com",
+        "hr_name": "Sumon Reza",
+        "company_logo": "https://i.ibb.co/7f7TgNC/40.png"
+    },
+    {
+        "title": "Food Production Supervisor",
+        "location": "Kawran Bazar, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 6,
+        "applicationDeadline": "2024-12-30",
+        "salaryRange": {
+            "min": 45000,
+            "max": 70000,
+            "currency": "bdt"
+        },
+        "description": "Supervise daily food production operations, ensuring quality, hygiene, and safety standards are maintained.",
+        "company": "FreshDelight Foods",
+        "requirements": [
+            "Food Production",
+            "Quality Control",
+            "HACCP",
+            "Leadership"
+        ],
+        "responsibilities": [
+            "Supervise production staff",
+            "Maintain hygiene standards",
+            "Monitor food safety procedures"
+        ],
+        "status": "active",
+        "hr_email": "hr@freshdelight.com",
+        "hr_name": "Sadia Hasan",
+        "company_logo": "https://i.ibb.co/xK05ZJHF/41.png"
+    },
+    {
+        "title": "Quality Assurance Officer",
+        "location": "Agrabad, Chittagong",
+        "jobType": "Onsite",
+        "category_id": 6,
+        "applicationDeadline": "2024-12-25",
+        "salaryRange": {
+            "min": 40000,
+            "max": 60000,
+            "currency": "bdt"
+        },
+        "description": "Ensure all food products meet company and regulatory quality standards.",
+        "company": "PureTaste BD",
+        "requirements": [
+            "Quality Assurance",
+            "ISO Standards",
+            "Food Safety",
+            "Attention to Detail"
+        ],
+        "responsibilities": [
+            "Conduct inspections",
+            "Test product quality",
+            "Report non-compliance issues"
+        ],
+        "status": "active",
+        "hr_email": "jobs@puretaste.com",
+        "hr_name": "Raihan Islam",
+        "company_logo": "https://i.ibb.co/21HG2P9W/42.png"
+    },
+    {
+        "title": "Food Technologist",
+        "location": "Gazipur, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 6,
+        "applicationDeadline": "2024-12-29",
+        "salaryRange": {
+            "min": 55000,
+            "max": 85000,
+            "currency": "bdt"
+        },
+        "description": "Develop new food products, improve existing recipes, and ensure production efficiency.",
+        "company": "NutriPlus Foods",
+        "requirements": [
+            "Food Science",
+            "Product Development",
+            "Lab Testing",
+            "R&D"
+        ],
+        "responsibilities": [
+            "Develop food formulations",
+            "Conduct lab experiments",
+            "Maintain quality consistency"
+        ],
+        "status": "active",
+        "hr_email": "career@nutriplus.com",
+        "hr_name": "Farzana Chowdhury",
+        "company_logo": "https://i.ibb.co/wZnTkPpF/43.png"
+    },
+    {
+        "title": "Restaurant Manager",
+        "location": "Gulshan, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 6,
+        "applicationDeadline": "2024-12-31",
+        "salaryRange": {
+            "min": 60000,
+            "max": 90000,
+            "currency": "bdt"
+        },
+        "description": "Oversee restaurant operations, manage staff, and ensure high-quality customer service.",
+        "company": "Urban Bites",
+        "requirements": [
+            "Restaurant Management",
+            "Customer Service",
+            "Team Leadership",
+            "Inventory Control"
+        ],
+        "responsibilities": [
+            "Manage restaurant staff",
+            "Ensure customer satisfaction",
+            "Monitor inventory and expenses"
+        ],
+        "status": "active",
+        "hr_email": "hr@urbanbites.com",
+        "hr_name": "Mahmud Reza",
+        "company_logo": "https://i.ibb.co/s926yk9q/44.png"
+    },
+    {
+        "title": "Supply Chain Coordinator (Food)",
+        "location": "Tejgaon, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 6,
+        "applicationDeadline": "2024-12-27",
+        "salaryRange": {
+            "min": 50000,
+            "max": 75000,
+            "currency": "bdt"
+        },
+        "description": "Coordinate procurement, logistics, and delivery operations for food products nationwide.",
+        "company": "FoodFlow Logistics",
+        "requirements": [
+            "Supply Chain",
+            "Procurement",
+            "Excel",
+            "Communication"
+        ],
+        "responsibilities": [
+            "Manage vendor relations",
+            "Track shipments",
+            "Maintain inventory records"
+        ],
+        "status": "active",
+        "hr_email": "jobs@foodflow.com",
+        "hr_name": "Taslima Noor",
+        "company_logo": "https://i.ibb.co/5ZsdC39/45.png"
+    },
+    {
+        "title": "Chef de Partie",
+        "location": "Banani, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 6,
+        "applicationDeadline": "2024-12-28",
+        "salaryRange": {
+            "min": 40000,
+            "max": 65000,
+            "currency": "bdt"
+        },
+        "description": "Prepare high-quality dishes in a fast-paced kitchen and maintain cleanliness and order.",
+        "company": "TasteWorks Restaurant",
+        "requirements": [
+            "Cooking",
+            "Time Management",
+            "Food Safety",
+            "Teamwork"
+        ],
+        "responsibilities": [
+            "Prepare menu items",
+            "Maintain kitchen hygiene",
+            "Collaborate with head chef"
+        ],
+        "status": "active",
+        "hr_email": "hr@tasteworks.com",
+        "hr_name": "Jahidul Karim",
+        "company_logo": "https://i.ibb.co/BK5RHNXL/46.png"
+    },
+    {
+        "title": "Food Safety Inspector",
+        "location": "Mirpur, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 6,
+        "applicationDeadline": "2024-12-26",
+        "salaryRange": {
+            "min": 50000,
+            "max": 80000,
+            "currency": "bdt"
+        },
+        "description": "Inspect food production facilities and ensure compliance with safety regulations.",
+        "company": "SafeServe BD",
+        "requirements": [
+            "Inspection",
+            "Food Safety",
+            "Hygiene Management",
+            "Reporting"
+        ],
+        "responsibilities": [
+            "Conduct inspections",
+            "Prepare reports",
+            "Recommend improvements"
+        ],
+        "status": "active",
+        "hr_email": "hr@safeserve.com",
+        "hr_name": "Rumana Ahmed",
+        "company_logo": "https://i.ibb.co/tpwPtv52/47.png"
+    },
+    {
+        "title": "Procurement Officer (Food)",
+        "location": "Khilgaon, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 6,
+        "applicationDeadline": "2024-12-23",
+        "salaryRange": {
+            "min": 45000,
+            "max": 70000,
+            "currency": "bdt"
+        },
+        "description": "Procure ingredients and raw materials while maintaining supplier relationships and cost efficiency.",
+        "company": "AgroFresh BD",
+        "requirements": [
+            "Procurement",
+            "Negotiation",
+            "Food Supply",
+            "Vendor Management"
+        ],
+        "responsibilities": [
+            "Manage supplier contracts",
+            "Track material needs",
+            "Negotiate pricing"
+        ],
+        "status": "active",
+        "hr_email": "jobs@agrofresh.com",
+        "hr_name": "Rafidul Hasan",
+        "company_logo": "https://i.ibb.co/PvKz4kXw/48.png"
+    },
+    {
+        "title": "Food Packaging Operator",
+        "location": "Gazipur, Dhaka",
+        "jobType": "Onsite",
+        "category_id": 6,
+        "applicationDeadline": "2024-12-22",
+        "salaryRange": {
+            "min": 30000,
+            "max": 50000,
+            "currency": "bdt"
+        },
+        "description": "Operate packaging machinery and ensure products are correctly labeled and sealed.",
+        "company": "PackPro Foods",
+        "requirements": [
+            "Machine Operation",
+            "Packaging",
+            "Attention to Detail",
+            "Teamwork"
+        ],
+        "responsibilities": [
+            "Operate packaging line",
+            "Maintain machine performance",
+            "Ensure proper labeling"
+        ],
+        "status": "active",
+        "hr_email": "hr@packpro.com",
+        "hr_name": "Samin Hossain",
+        "company_logo": "https://i.ibb.co/LhdWVbh6/49.png"
+    },
+    {
+        "title": "Nutritionist",
+        "location": "Dhanmondi, Dhaka",
+        "jobType": "Hybrid",
+        "category_id": 6,
+        "applicationDeadline": "2024-12-31",
+        "salaryRange": {
+            "min": 60000,
+            "max": 90000,
+            "currency": "bdt"
+        },
+        "description": "Design and monitor nutritional plans for food production and wellness programs.",
+        "company": "HealthBite Foods",
+        "requirements": [
+            "Nutrition",
+            "Diet Planning",
+            "Food Science",
+            "Research"
+        ],
+        "responsibilities": [
+            "Develop nutrition guidelines",
+            "Collaborate with food technologists",
+            "Monitor health outcomes"
+        ],
+        "status": "active",
+        "hr_email": "career@healthbite.com",
+        "hr_name": "Tania Rahman",
+        "company_logo": "https://i.ibb.co/vx8wRvQx/50.png"
+    }
+]
