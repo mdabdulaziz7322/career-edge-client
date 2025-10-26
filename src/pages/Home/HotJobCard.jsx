@@ -2,10 +2,11 @@ import React from 'react';
 import { CiLocationOn } from "react-icons/ci";
 import { LuBriefcaseBusiness } from "react-icons/lu";
 import { CiStopwatch } from "react-icons/ci";
+import { Link } from 'react-router';
 
 const HotJobCard = ({ sampleJob }) => {
 
-    const { company_logo, title, company, description, location, jobType, requirements, applicationDeadline } = sampleJob;
+    const { company_logo, title, company, description, _id, location, jobType, requirements, applicationDeadline } = sampleJob;
 
 
     return (
@@ -38,7 +39,7 @@ const HotJobCard = ({ sampleJob }) => {
                     </div>
                 </div>
                 <p>{description}</p>
-                <div className="flex flex-wrap gap-2 mb-2 mt-2">
+                <div className="flex flex-wrap gap-2 mt-2">
                     {requirements.map((req, idx) => (
                         <span
                             key={idx}
@@ -48,13 +49,15 @@ const HotJobCard = ({ sampleJob }) => {
                         </span>
                     ))}
                 </div>
-                <div className="flex justify-between items-center mt-4 w-full">
+                <div className="flex justify-between items-center mt-2 w-full">
                     <p className="text-gray-500 text-sm sm:text-base">
                         <span className="text-[#38a3a5] font-bold text-lg sm:text-xl">€14</span>/Hour
                     </p>
+                    <Link to={`/job/${_id}`}>
                     <button className="btn text-[#2a7c7e] bg-[#c8f1f2] border border-[#9fd7d8] transition-all duration-300 hover:bg-[#38a3a5] hover:text-white text-xs sm:text-sm">
-                        Apply Now
+                        Show Details
                     </button>
+                    </Link>
                 </div>
             </div>
 
