@@ -1,13 +1,72 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link, useParams } from 'react-router';
+import useAuth from '../../hooks/useAuth';
+import axios from 'axios';
+import Swal from 'sweetalert2';
 
 
 
 const JobApply = () => {
 
-    return (
+  const { id: jobId } = useParams();
+  const user = useAuth();
+  console.log(jobId, user);
 
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center py-12 px-4">
+  const handleApplySubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const fullName = form.fullName.value;
+    const email = form.email.value;
+    const phone = form.phone.value;
+    const profilePicture = form.profilePicture.value;
+    const motivation = form.motivation.value;
+    const resume = form.resume.files[0];
+    const cloverLetter = form.cloverLetter.files[0];
+    const agreed = form.agreed.checked;
+
+    console.log(fullName, email, phone, profilePicture, motivation, resume, cloverLetter, agreed);
+
+    const applicationData = {
+      jobId,
+      applicantEmail: user.email,
+      fullName,
+      phone,
+      profilePicture,
+      motivation,
+      resume,
+      cloverLetter,
+      agreed
+    };
+
+    axios.post('http://localhost:3000/applications', applicationData)
+      .then(response => {
+        console.log('Application submitted successfully:', response.data);
+        if (response.data.insertedId) {
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Your Application has been submitted",
+            showConfirmButton: false,
+            timer: 1500
+          });
+        }
+      })
+      .catch(error => {
+        console.error('Error submitting application:', error);
+        // Handle error appropriately
+      });
+
+    console.log(applicationData);
+
+    form.reset();
+
+
+    // Handle form submission logic here
+  }
+
+  return (
+
+    <div className="min-h-screen bg-gray-50 flex flex-col items-center pt-30 pb-20 px-4">
       <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-2xl border-t-4 border-[#38a3a5]">
         {/* 🏷️ Header */}
         <div className="text-center mb-6">
@@ -20,7 +79,7 @@ const JobApply = () => {
         </div>
 
         {/* 🧾 Form */}
-        <form className="space-y-5">
+        <form onSubmit={handleApplySubmit} className="space-y-5">
           {/* Full Name */}
           <div>
             <label className="block text-sm font-medium mb-1">
@@ -63,10 +122,22 @@ const JobApply = () => {
             />
           </div>
 
+          <div>
+            <label className="block text-sm font-medium mb-1">
+              Profile Picture <span className="text-red-500"></span>
+            </label>
+            <input
+              type="url"
+              name="profilePicture"
+              placeholder="Enter your profile picture URL"
+              className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-[#38a3a5] outline-none"
+            />
+          </div>
+
           {/* Motivation */}
           <div>
             <label className="block text-sm font-medium mb-1">
-              Motivation / Cover Letter <span className="text-red-500">*</span>
+              Motivation <span className="text-red-500">*</span>
             </label>
             <textarea
               name="motivation"
@@ -80,13 +151,13 @@ const JobApply = () => {
           {/* Resume Upload */}
           <div>
             <label className="block text-sm font-medium mb-1">
-              Upload Resume (PDF / DOC) <span className="text-red-500">*</span>
+              Upload Resume (PDF / DOC) <span className="text-red-500"></span>
             </label>
             <input
               type="file"
               name="resume"
               accept=".pdf,.doc,.docx"
-              required
+
               className="w-full border border-gray-300 rounded-lg p-2 bg-gray-50"
             />
           </div>
@@ -94,13 +165,13 @@ const JobApply = () => {
           {/* CV Upload */}
           <div>
             <label className="block text-sm font-medium mb-1">
-              Upload CV (PDF / DOC) <span className="text-red-500">*</span>
+              Upload Cover Letter (PDF / DOC) <span className="text-red-500"></span>
             </label>
             <input
               type="file"
-              name="cv"
+              name="cloverLetter"
               accept=".pdf,.doc,.docx"
-              required
+
               className="w-full border border-gray-300 rounded-lg p-2 bg-gray-50"
             />
           </div>
@@ -124,7 +195,7 @@ const JobApply = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full bg-[#38a3a5] text-white py-2 rounded-lg font-semibold hover:bg-green-700 transition mt-4"
+            className="w-full bg-[#38a3a5] text-white py-2 rounded-lg font-semibold hover:bg-[#1e5556] hover:cursor-pointer transition mt-4"
           >
             Submit Application
           </button>
@@ -142,7 +213,7 @@ const JobApply = () => {
         </form>
       </div>
     </div>
-    );
+  );
 };
 
 export default JobApply;
