@@ -7,7 +7,7 @@ const JobDetails = () => {
     const jobs = useLoaderData();
     const { title, company, _id, location, hr_email, applicationDeadline, company_logo, jobType, status, responsibilities } = jobs;
     return (
-        <div className="min-h-screen bg-gray-50 pt-20">
+        <div className="min-h-screen bg-gray-50 mx-auto">
             {/* 🖼️ Banner Image */}
             <div className="w-full h-50 md:h-80 lg:h-100">
                 <img

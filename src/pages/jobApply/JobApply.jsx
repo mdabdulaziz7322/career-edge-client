@@ -16,7 +16,6 @@ const JobApply = () => {
     e.preventDefault();
     const form = e.target;
     const fullName = form.fullName.value;
-    const email = form.email.value;
     const phone = form.phone.value;
     const profilePicture = form.profilePicture.value;
     const motivation = form.motivation.value;
@@ -24,7 +23,7 @@ const JobApply = () => {
     const cloverLetter = form.cloverLetter.files[0];
     const agreed = form.agreed.checked;
 
-    console.log(fullName, email, phone, profilePicture, motivation, resume, cloverLetter, agreed);
+    console.log(fullName, phone, profilePicture, motivation, resume, cloverLetter, agreed);
 
     const applicationData = {
       jobId,
@@ -95,7 +94,7 @@ const JobApply = () => {
           </div>
 
           {/* Email */}
-          <div>
+          {/* <div>
             <label className="block text-sm font-medium mb-1">
               Email <span className="text-red-500">*</span>
             </label>
@@ -106,7 +105,7 @@ const JobApply = () => {
               placeholder="Enter your email"
               className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-[#38a3a5] outline-none"
             />
-          </div>
+          </div> */}
 
           {/* Phone */}
           <div>
