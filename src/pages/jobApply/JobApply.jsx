@@ -9,7 +9,8 @@ import Swal from 'sweetalert2';
 const JobApply = () => {
 
   const { id: jobId } = useParams();
-  const user = useAuth();
+  console.log(jobId);
+  const {user} = useAuth();
   console.log(jobId, user);
 
   const handleApplySubmit = (e) => {
@@ -23,8 +24,6 @@ const JobApply = () => {
     const cloverLetter = form.cloverLetter.files[0];
     const agreed = form.agreed.checked;
 
-    console.log(fullName, phone, profilePicture, motivation, resume, cloverLetter, agreed);
-
     const applicationData = {
       jobId,
       applicantEmail: user.email,
@@ -36,6 +35,7 @@ const JobApply = () => {
       cloverLetter,
       agreed
     };
+    console.log(applicationData);
 
     axios.post('http://localhost:3000/applications', applicationData)
       .then(response => {

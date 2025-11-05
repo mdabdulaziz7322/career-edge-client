@@ -3,6 +3,7 @@ import { Link, NavLink, useNavigate } from 'react-router';
 import { AuthContext } from '../../context/AuthContext/AuthContext';
 import icon from '../../assets/pics/icons8-job-website-28.png';
 import { IoIosArrowDropdown } from "react-icons/io";
+import router from '../../router/router';
 
 
 const NavBar = () => {
@@ -12,6 +13,7 @@ const NavBar = () => {
     
     const [profileOpen, setProfileOpen] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
+    const [activePath, setActivePath] = useState(router.pathname);
 
     // Fetch user data
  
@@ -26,10 +28,13 @@ const NavBar = () => {
         setMenuOpen(false);
         setProfileOpen(false);
         navigate(path);
+        setActivePath(path);  // update active link
+        router.push(path);
     };
 
     const commonLinks = [
         { label: "Home", path: "/" },
+        { label: "Find a Job", path: "/all-jobs" },
         { label: "Recruiters", path: "/recruiters" },
         { label: "Candidates", path: "/candidates" },
         { label: "Blog", path: "/blog" },
@@ -63,7 +68,12 @@ const NavBar = () => {
                 {/* Center links - large screens */}
                 <div className="navbar-center hidden lg:flex gap-6 text-[#154f4e] font-semibold ">
                     {commonLinks.map((link, i) => (
-                        <button className='hover:cursor-pointer' key={i} onClick={() => handleNavigate(link.path)}>
+                        <button key={i} onClick={() => handleNavigate(link.path)}
+                        className={`px-4 py-2 rounded-lg ${
+                        activePath === link.path
+                            ? "bg-[#38a3a5] text-white"
+                            : "bg-transparent hover:bg-[#38a3a5]/20"
+                    }`}>
                             {link.label}
                         </button>
                     ))}

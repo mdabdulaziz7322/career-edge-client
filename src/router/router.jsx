@@ -14,6 +14,7 @@ import JobDetails from "../pages/jobDetails/JobDetails";
 import JobApply from "../pages/jobApply/JobApply";
 import PrivateRoutes from "../routes/PrivateRoutes";
 import MyApplication from "../pages/myApplication/MyApplication";
+import AllJobs from "../pages/All jobs/AllJobs";
 
 
 const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
             {
                 path: "find-job",
                 element: <FindJobs></FindJobs>
+            },
+            {
+                path: "all-jobs",
+                Component: AllJobs
             },
             {
                 path: "job/:id",

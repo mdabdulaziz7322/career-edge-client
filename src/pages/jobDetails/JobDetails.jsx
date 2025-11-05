@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLoaderData } from 'react-router';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaBriefcase, FaMoneyBillWave, FaClock, FaBuilding } from "react-icons/fa";
+import Subscription from '../Shared/Subscription';
 
 const JobDetails = () => {
 
@@ -42,7 +43,7 @@ const JobDetails = () => {
             <hr className="border-gray-200" />
 
             {/* 🧱 Main Content */}
-            <div className="max-w-6xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-10">
+            <div className="max-w-6xl mx-auto px-4 py-5 grid grid-cols-1 lg:grid-cols-3 gap-10">
                 {/* 📝 Left Side (2/3 width) */}
                 <div className="lg:col-span-2 space-y-8">
                     {/* About Company */}
@@ -167,6 +168,7 @@ const JobDetails = () => {
 
                 </div>
             </div>
+            <Subscription></Subscription>
         </div>
 
     );
