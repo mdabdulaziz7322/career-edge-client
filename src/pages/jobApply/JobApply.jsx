@@ -65,7 +65,7 @@ const JobApply = () => {
 
   return (
 
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center pt-30 pb-20 px-4">
+    <div className="min-h-screen bg-gradient-to-b from-white via-[#e6f9f8] to-white flex flex-col items-center pt-30 pb-20 px-4">
       <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-2xl border-t-4 border-[#38a3a5]">
         {/* 🏷️ Header */}
         <div className="text-center mb-6">

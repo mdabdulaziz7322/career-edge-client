@@ -34,7 +34,7 @@ const AllJobs = () => {
         <div>
             <div className=" min-h-screen p-6 mt-5">
                 {/* ===== Header Section ===== */}
-                <div className="text-center mb-10">
+                <div className="text-center mb-10 ">
                     <h2 className="text-3xl font-bold text-[#154f4e] ">
                         <span className='text-[#38a3a5] '>{jobs.length}</span> Jobs Available Now
                     </h2>

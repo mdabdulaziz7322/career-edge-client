@@ -6,7 +6,7 @@ import pic2 from '../../assets/pics/developing team.jpg'
 
 const Banner = () => {
     return (
-    <div className="hero min-h-96 mb-10 bg-[#f9fdfd]">
+    <div className="hero min-h-96 mb-10 bg-gradient-to-b from-white via-[#e6f9f8] to-white">
       <div className="hero-content flex flex-col lg:flex-row-reverse items-center lg:items-start">
         {/* Image container */}
         <div className="flex-1 hidden lg:flex flex-col gap-4 justify-center items-center mx-w-md">
