@@ -6,11 +6,11 @@ import { Link } from 'react-router';
 
 const HotJobCard = ({ sampleJob }) => {
 
-    const { company_logo, title, company, description, _id, location, jobType, requirements, applicationDeadline } = sampleJob;
+    const { company_logo, title, company, _id, location, jobType, applicationDeadline } = sampleJob;
 
 
     return (
-        <div className="card w-full px-1 py-4 bg-[#f4fdfd] border border-[#dff6f6] rounded-xl shadow-sm transition-all duration-300 hover:bg-white hover:shadow-md">
+        <div className="card w-full px-1 py-4 bg-[#F4F7FF] border border-[#dff6f6] rounded-xl shadow-sm transition-all duration-300 hover:bg-white hover:shadow-md">
             <div className='flex items-center gap-2'>
                 <figure>
                     <img src={company_logo} alt={company} className="rounded-xl w-16 h-16 object-cover" />
@@ -38,25 +38,14 @@ const HotJobCard = ({ sampleJob }) => {
 
                     </div>
                 </div>
-                <p>{description}</p>
-                <div className="flex flex-wrap gap-2 mt-2">
-                    {requirements.map((req, idx) => (
-                        <span
-                            key={idx}
-                            className="text-xs sm:text-sm bg-[#eefafa] text-[#8b949e] px-2 py-1 rounded break-words max-w-full"
-                        >
-                            {req}
-                        </span>
-                    ))}
-                </div>
                 <div className="flex justify-between items-center mt-2 w-full">
                     <p className="text-gray-500 text-sm sm:text-base">
-                        <span className="text-[#38a3a5] font-bold text-lg sm:text-xl">€14</span>/Hour
+                        <span className="text-[#4993FA] font-bold text-lg sm:text-xl">€14</span>/Hour
                     </p>
                     <Link to={`/job/${_id}`}>
-                    <button className="btn text-[#2a7c7e] bg-[#c8f1f2] border border-[#9fd7d8] transition-all duration-300 hover:bg-[#38a3a5] hover:text-white text-xs sm:text-sm">
-                        Show Details
-                    </button>
+                        <button className="w-full sm:w-auto px-3 py-2 rounded-lg font-semibold text-white bg-[#4993FA] hover:bg-blue-600 cursor-pointer transition-all duration-300 text-sm sm:text-base">
+                            Show Details
+                        </button>
                     </Link>
                 </div>
             </div>

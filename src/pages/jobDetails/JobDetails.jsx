@@ -8,7 +8,7 @@ const JobDetails = () => {
     const jobs = useLoaderData();
     const { title, company, _id, location, hr_email, applicationDeadline, company_logo, jobType, status, responsibilities } = jobs;
     return (
-        <div className="min-h-screen bg-gray-50 mx-auto">
+        <div className="min-h-screen bg-gray-50 mx-auto mt-20">
             {/* 🖼️ Banner Image */}
             <div className="w-full h-50 md:h-80 lg:h-100">
                 <img
@@ -34,7 +34,7 @@ const JobDetails = () => {
                 </div>
                 <Link
                     to={`/job-apply/${_id}`}>
-                    <button className="btn bg-[#38a3a5] rounded-lg text-white px-10 py-2 border-none">
+                    <button className="btn bg-[#4993FA] rounded-lg text-white px-10 py-2 border-none">
                         Apply Now
                     </button>
                 </Link>
@@ -101,7 +101,7 @@ const JobDetails = () => {
                     </div>
 
                         <div className="flex items-center gap-3 text-gray-700">
-                            <FaBuilding className="text-[#38a3a5]" />
+                            <FaBuilding className="text-[#4993FA]" />
                             <div>
                                 <p className="text-sm text-gray-500">Company Field</p>
                                 <p className="font-semibold">{title}</p>
@@ -109,7 +109,7 @@ const JobDetails = () => {
                         </div>
 
                         <div className="flex items-center gap-3 text-gray-700">
-                            <FaMapMarkerAlt className="text-[#38a3a5]" />
+                            <FaMapMarkerAlt className="text-[#4993FA]" />
                             <div>
                                 <p className="text-sm text-gray-500">Location</p>
                                 <p className="font-semibold">{location}</p>
@@ -117,7 +117,7 @@ const JobDetails = () => {
                         </div>
 
                         <div className="flex items-center gap-3 text-gray-700">
-                            <FaMoneyBillWave className="text-[#38a3a5]" />
+                            <FaMoneyBillWave className="text-[#4993FA]" />
                             <div>
                                 <p className="text-sm text-gray-500">Salary</p>
                                 <p className="font-semibold">14 Euro/Hour</p>
@@ -125,7 +125,7 @@ const JobDetails = () => {
                         </div>
 
                         <div className="flex items-center gap-3 text-gray-700">
-                            <FaClock className="text-[#38a3a5]" />
+                            <FaClock className="text-[#4993FA]" />
                             <div>
                                 <p className="text-sm text-gray-500">applicationDeadline</p>
                                 <p className="font-semibold">{applicationDeadline}</p>
@@ -133,7 +133,7 @@ const JobDetails = () => {
                         </div>
 
                         <div className="flex items-center gap-3 text-gray-700">
-                            <FaBriefcase className="text-[#38a3a5]" />
+                            <FaBriefcase className="text-[#4993FA]" />
                             <div>
                                 <p className="text-sm text-gray-500">Status</p>
                                 <p className="font-semibold">{status}</p>
@@ -147,21 +147,21 @@ const JobDetails = () => {
                         </h4>
 
                         <div className="flex items-center gap-3 text-gray-700">
-                            <FaMapMarkerAlt className="text-[#38a3a5]" />
+                            <FaMapMarkerAlt className="text-[#4993FA]" />
                             <p className="text-sm">{location}</p>
                         </div>
 
                         <div className="flex items-center gap-3 text-gray-700">
-                            <FaPhoneAlt className="text-[#38a3a5]" />
+                            <FaPhoneAlt className="text-[#4993FA]" />
                             <p className="text-sm">(+49)171635598</p>
                         </div>
 
                         <div className="flex items-center gap-3 text-gray-700">
-                            <FaEnvelope className="text-[#38a3a5]" />
+                            <FaEnvelope className="text-[#4993FA]" />
                             <p className="text-sm">{hr_email}</p>
                         </div>
 
-                        <button className="w-full mt-2 bg-[#38a3a5] text-white py-2 rounded-lg font-semibold hover:bg-green-700 transition">
+                        <button className="w-full mt-2 bg-[#4993FA] text-white py-2 rounded-lg font-semibold hover:bg-green-700 transition">
                             Send Message
                         </button>
                     </div>

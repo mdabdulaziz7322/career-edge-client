@@ -6,7 +6,7 @@ import ScrollToTop from '../pages/Shared/ScrollToTop';
 
 const RootLayout = () => {
     return (
-        <div className='max-w-7xl mx-auto '>
+        <div className=''>
             <ScrollToTop></ScrollToTop>
             <NavBar></NavBar>
             <Outlet></Outlet>

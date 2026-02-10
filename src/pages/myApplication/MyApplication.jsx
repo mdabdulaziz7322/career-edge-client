@@ -16,7 +16,7 @@ const MyApplication = () => {
     useEffect(() => {
         if (!user?.email) return;
         axios
-            .get(`http://localhost:3000/applications?email=${user.email}`)
+            .get(`http://localhost:3000/applications?email=${user.email}`, { withCredentials: true })
             .then((res) => {
                 console.log("Fetched applications:", res.data);
                 setMyApply(res.data);

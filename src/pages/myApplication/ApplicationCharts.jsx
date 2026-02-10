@@ -26,7 +26,7 @@ const COLORS = ["#facc15", "#38a3a5", "#f87171"];
 
 const ApplicationCharts = () => {
     return (
-        <div className="bg-[#f4fdfd] rounded-2xl shadow-md p-6 border border-[#e8f7f7] mb-10">
+        <div className="bg-white rounded-2xl shadow-md p-6 border border-[#e8f7f7] mb-10">
       <h2 className="text-xl font-semibold text-[#154f4e] mb-4">
         Application Statistics Overview
       </h2>

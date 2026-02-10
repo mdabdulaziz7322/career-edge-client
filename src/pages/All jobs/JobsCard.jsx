@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 const JobsCard = ({ job }) => {
     return (
         <div>
-            <div className="bg-white rounded-2xl shadow-sm p-5 hover:shadow-md transition-all">
+            <div className="bg-[#F4F7FF] rounded-2xl shadow-sm p-5 hover:shadow-md transition-all">
                 <div className="flex items-center gap-3 mb-3">
                     <img
                         src={job.company_logo || "https://via.placeholder.com/60"}
@@ -24,15 +24,15 @@ const JobsCard = ({ job }) => {
 
                 <div className="flex justify-between items-center">
                     <span className="text-sm text-gray-500">{job.type || "Fulltime"}</span>
-                    <span className="font-semibold text-[#38a3a5]">
+                    <span className="font-semibold text-[#4993FA]">
                         ${job.salary || "500"}/hour
                     </span>
                 </div>
 
-                <Link to= {`/job/${job._id}`}>
-                <button className="mt-4 w-full bg-[#38a3a5] text-white rounded-lg py-2 font-medium hover:bg-[#2c8587] transition">
-                    Show Details
-                </button>
+                <Link to={`/job/${job._id}`}>
+                    <button className="mt-4 w-full text-[#4993FA]  bg-[#E0E6FF] py-3 rounded-2xl transition-all duration-300 hover:bg-[#4993FA] hover:text-white text-xs">
+                        Show Details
+                    </button>
                 </Link>
             </div>
         </div>

@@ -3,7 +3,7 @@ import React from 'react';
 const Subscription = () => {
     return (
         <div className="w-full px-4 sm:px-6 lg:px-8 mb-10">
-            <div className="bg-[#38a3a5] text-white rounded-3xl p-6 sm:p-10 relative overflow-hidden mt-16">
+            <div className="bg-[#4993FA] text-white rounded-3xl p-6 sm:p-10 relative overflow-hidden mt-16">
                 {/* Floating Images */}
                 <div className="hidden sm:block absolute top-6 left-4 sm:left-8 w-16 sm:w-20 h-16 sm:h-20 rounded-xl overflow-hidden">
                     <img
@@ -39,7 +39,7 @@ const Subscription = () => {
 
                 {/* Content */}
                 <div className="text-center max-w-xl sm:max-w-2xl mx-auto relative z-10">
-                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 leading-snug">
+                    <h2 className="text-2xl sm:text-3xl lg:text-4xl uppercase font-bold mb-4 leading-snug">
                         New Things Will Always <br className="hidden sm:block" /> Update Regularly
                     </h2>
 
@@ -71,7 +71,7 @@ const Subscription = () => {
                             className="flex-1 w-full px-4 py-3 text-gray-700 text-sm sm:text-base outline-none"
                         />
 
-                        <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-[#38a3a5] text-white font-semibold px-6 py-3 hover:bg-[#2c8587] transition-all">
+                        <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-[#4993FA] text-white font-semibold px-6 py-3 hover:bg-blue-600 transition-all">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"

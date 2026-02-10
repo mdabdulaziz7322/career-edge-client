@@ -35,6 +35,7 @@ const JobApply = () => {
       cloverLetter,
       agreed
     };
+    
     console.log(applicationData);
 
     axios.post('http://localhost:3000/applications', applicationData)
@@ -65,8 +66,8 @@ const JobApply = () => {
 
   return (
 
-    <div className="min-h-screen bg-gradient-to-b from-white via-[#e6f9f8] to-white flex flex-col items-center pt-30 pb-20 px-4">
-      <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-2xl border-t-4 border-[#38a3a5]">
+    <div className="min-h-screen  flex flex-col items-center pt-30 pb-20 px-4 bg-[#F4F7FF]">
+      <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-2xl border-t-8 border-[#4993FA]">
         {/* 🏷️ Header */}
         <div className="text-center mb-6">
           <h2 className="text-3xl font-bold text-gray-800">
@@ -89,7 +90,7 @@ const JobApply = () => {
               name="fullName"
               required
               placeholder="Enter your full name"
-              className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-[#38a3a5] outline-none"
+              className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-[#4993FA] outline-none"
             />
           </div>
 
@@ -117,7 +118,7 @@ const JobApply = () => {
               name="phone"
               required
               placeholder="Enter your phone number"
-              className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-[#38a3a5] outline-none"
+              className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-[#4993FA] outline-none"
             />
           </div>
 
@@ -129,7 +130,7 @@ const JobApply = () => {
               type="url"
               name="profilePicture"
               placeholder="Enter your profile picture URL"
-              className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-[#38a3a5] outline-none"
+              className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-[#4993FA] outline-none"
             />
           </div>
 
@@ -143,7 +144,7 @@ const JobApply = () => {
               rows="4"
               required
               placeholder="Tell us why you’re a great fit for this role..."
-              className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-[#38a3a5] outline-none"
+              className="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-[#4993FA] outline-none"
             ></textarea>
           </div>
 
@@ -181,11 +182,11 @@ const JobApply = () => {
               type="checkbox"
               name="agreed"
               required
-              className="mt-1 h-4 w-4 text-[#38a3a5] focus:ring-[#38a3a5] border-gray-300 rounded"
+              className="mt-1 h-4 w-4 text-[#4993FA] focus:ring-[#4993FA] border-gray-300 rounded"
             />
             <label className="text-sm text-gray-700">
               I have read and agree to the{" "}
-              <Link to="/terms" className="text-[#38a3a5] font-semibold hover:underline">
+              <Link to="/terms" className="text-[#4993FA] font-semibold hover:underline">
                 Terms and Conditions
               </Link>.
             </label>
@@ -194,7 +195,7 @@ const JobApply = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full bg-[#38a3a5] text-white py-2 rounded-lg font-semibold hover:bg-[#1e5556] hover:cursor-pointer transition mt-4"
+            className="w-full bg-[#4993FA] text-white py-2 rounded-lg font-semibold hover:bg-[#1e5556] hover:cursor-pointer transition mt-4"
           >
             Submit Application
           </button>
@@ -204,7 +205,7 @@ const JobApply = () => {
             Need our support?{" "}
             <Link
               to="/contact"
-              className="text-[#38a3a5] font-semibold hover:underline"
+              className="text-[#4993FA] font-semibold hover:underline"
             >
               Contact Us
             </Link>

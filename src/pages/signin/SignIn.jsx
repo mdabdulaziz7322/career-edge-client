@@ -49,7 +49,7 @@ const SignIn = () => {
                                 <label className="label">Password</label>
                                 <input type="password" name='password' className="input" placeholder="Password" />
                                 <div><a className="link link-hover">Forgot password?</a></div>
-                                <button className="btn border-2 text-white rounded-lg   bg-[#38a3a5] mt-4">Sign In</button>
+                                <button className="btn border-2 text-white rounded-lg   bg-[#4993FA] mt-4">Sign In</button>
                             </fieldset>
                         </form>
                         <SocialLogin from = {from}></SocialLogin>

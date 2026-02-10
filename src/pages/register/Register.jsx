@@ -206,13 +206,13 @@ const Register = () => {
 
               {/* Forgot Password */}
               <div className="text-right">
-                <a className="link link-hover text-sm text-[#38a3a5]">
+                <a className="link link-hover text-sm text-[#4993FA]">
                   Forgot password?
                 </a>
               </div>
 
               {/* Submit Button */}
-              <button className="btn border-2 text-white rounded-lg w-full   bg-[#38a3a5] mt-4">Register</button>
+              <button className="btn border-2 text-white rounded-lg w-full   bg-[#4993FA] mt-4">Register</button>
 
             </form>
 

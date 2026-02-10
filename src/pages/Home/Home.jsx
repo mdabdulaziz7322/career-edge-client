@@ -4,6 +4,11 @@ import Banner from './Banner';
 import HotJob from './HotJob';
 import { useEffect } from 'react';
 import axios from 'axios';
+import CategoryBrowser from './CategoryBrowser';
+import HiringBanner from './HiringBanner';
+import SearchJobBanner from './SearchJobBanner';
+import CitiesWithJobs from './CitiesWithJobs';
+import Subscription from '../Shared/Subscription';
 
 const Home = () => {
 
@@ -16,9 +21,17 @@ const Home = () => {
   }, []);
     
     return (
-        <div className=''>
+        <div >
             <Banner></Banner>
-            <HotJob hotJobs= {hotJobs} ></HotJob>
+            <CategoryBrowser></CategoryBrowser>
+            <HiringBanner></HiringBanner>
+            <CitiesWithJobs></CitiesWithJobs>
+            <div className='max-w-7xl mx-auto'>
+                <HotJob hotJobs= {hotJobs} ></HotJob>
+            </div>
+            <SearchJobBanner></SearchJobBanner>
+            <Subscription></Subscription>
+            
         </div>
     );
 };

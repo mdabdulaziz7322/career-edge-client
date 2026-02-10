@@ -71,12 +71,12 @@ const AddJobs = () => {
         // Handle form submission logic here
     }
     return (
-        <div className="min-h-screen mb-10 bg-gradient-to-b from-white via-[#e6f9f8] to-white flex items-center justify-center py-12 px-6">
-            <div className="max-w-6xl w-full bg-white rounded-3xl shadow-lg p-10 border-t-8 border-[#38a3a5]">
+        <div className="min-h-screen bg-[#F4F7FF] items-center justify-center py-12 px-6">
+            <div className="max-w-5xl w-full mx-auto mt-20 bg-white rounded-3xl shadow-lg p-10 border-t-8 border-[#4993FA]">
                 {/* Header */}
                 <h2 className="text-4xl font-bold text-center mb-10">
                     <span className="text-gray-800">Add a </span>
-                    <span className="text-[#38a3a5]">New Job</span>
+                    <span className="text-[#4993FA]">New Job</span>
                 </h2>
 
                 <form onSubmit={handleSubmit}
@@ -87,20 +87,20 @@ const AddJobs = () => {
                         <input
                             name="title"
                             placeholder="Job Title"
-                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#38a3a580] focus:border-[#38a3a5] outline-none transition-all"
+                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#4993FA] focus:border-[#4993FA] outline-none transition-all"
                             required
                         />
 
                         <input
                             name="location"
                             placeholder="Location"
-                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#38a3a580] focus:border-[#38a3a5] outline-none transition-all"
+                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#4993FA] focus:border-[#4993FA] outline-none transition-all"
                             required
                         />
 
                         <select
                             name="jobType"
-                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#38a3a580] focus:border-[#38a3a5] outline-none transition-all"
+                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#4993FA] focus:border-[#4993FA] outline-none transition-all"
                             required
                         >
                             <option value="">Select Job Type</option>
@@ -113,7 +113,7 @@ const AddJobs = () => {
 
                         <select
                             name="category_id"
-                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#38a3a580] focus:border-[#38a3a5] outline-none transition-all"
+                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#4993FA] focus:border-[#4993FA] outline-none transition-all"
                             required
                         >
                             <option value="">Select Job Category</option>
@@ -127,7 +127,7 @@ const AddJobs = () => {
                         <input
                             type="date"
                             name="applicationDeadline"
-                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#38a3a580] focus:border-[#38a3a5]"
+                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#4993FA] focus:border-[#4993FA]"
                             required
                         />
 
@@ -136,21 +136,21 @@ const AddJobs = () => {
                                 name="Min"
                                 type="number"
                                 placeholder="Min Salary"
-                                className="w-1/2 p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#38a3a580] outline-none"
+                                className="w-1/2 p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#4993FA] outline-none"
                                 required
                             />
                             <input
                                 name="Max"
                                 type="number"
                                 placeholder="Max Salary"
-                                className="w-1/2 p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#38a3a580] outline-none"
+                                className="w-1/2 p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#4993FA] outline-none"
                                 required
                             />
                         </div>
 
                         <select
                             name="currency"
-                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#38a3a580]"
+                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#4993FA]"
                         >
                             <option value="bdt">BDT</option>
                             <option value="usd">USD</option>
@@ -160,7 +160,7 @@ const AddJobs = () => {
                         <textarea
                             name="description"
                             placeholder="Job Description"
-                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm h-32 focus:ring-4 focus:ring-[#38a3a580] outline-none transition-all"
+                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm h-32 focus:ring-4 focus:ring-[#4993FA] outline-none transition-all"
                             required
                         />
                     </div>
@@ -168,7 +168,7 @@ const AddJobs = () => {
                     {/* Right Column */}
                     <div className="space-y-6">
 
-                        <select name="status" className=" w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#38a3a580] outline-none" required>
+                        <select name="status" className=" w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#4993FA] outline-none" required>
                             <option value="">Select Status</option>
                             <option value="active">Active</option>
                             <option value="closed">Closed</option>
@@ -177,28 +177,28 @@ const AddJobs = () => {
                         <input
                             name="company"
                             placeholder="Company Name"
-                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#38a3a580] outline-none"
+                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#4993FA] outline-none"
                             required
                         />
 
                         <textarea
                             name="requirements"
                             placeholder="Requirements (comma separated)"
-                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm h-32 focus:ring-4 focus:ring-[#38a3a580] outline-none"
+                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm h-32 focus:ring-4 focus:ring-[#4993FA] outline-none"
                             required
                         />
 
                         <textarea
                             name="responsibilities"
                             placeholder="Responsibilities (comma separated)"
-                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm h-32 focus:ring-4 focus:ring-[#38a3a580] outline-none"
+                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm h-32 focus:ring-4 focus:ring-[#4993FA] outline-none"
                             required
                         />
 
                         <input
                             name="hr_name"
                             placeholder="HR Name"
-                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#38a3a580] outline-none"
+                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#4993FA] outline-none"
                             required
                         />
 
@@ -207,14 +207,14 @@ const AddJobs = () => {
                             type="email"
                             defaultValue={user?.email}
                             placeholder="HR Email"
-                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#38a3a580] outline-none"
+                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#4993FA] outline-none"
                             required
                         />
 
                         <input
                             name="company_logo"
                             placeholder="Company Logo URL"
-                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#38a3a580] outline-none"
+                            className="w-full p-3 border border-gray-300 rounded-xl shadow-sm focus:ring-4 focus:ring-[#4993FA] outline-none"
                         />
                     </div>
 
@@ -222,9 +222,9 @@ const AddJobs = () => {
                     <div className="col-span-1 md:col-span-2 flex justify-center mt-10">
                         <button
                             type="submit"
-                            className="bg-[#38a3a5] text-white px-14 py-3 rounded-2xl font-semibold shadow-lg hover:bg-[#2d7f80] hover:scale-105 transition-transform duration-300"
+                            className="bg-[#4993FA] text-white px-14 py-3 rounded-2xl font-semibold shadow-lg hover:bg-[#4993FA] hover:scale-105 transition-transform duration-300"
                         >
-                            ➕ Add Job
+                            <span className='text-white'>➕</span> Add Job
                         </button>
                     </div>
                 </form>
